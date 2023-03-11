@@ -18,6 +18,9 @@ namespace LineComparison
             calculateLength.Calculate();
             double line1=calculateLength.Calculate();
             CalculateLength calculatelength = new CalculateLength(3,4,5,6);
+            double line2 = calculateLength.Calculate();
+            calculateLength.CheckEquality(line1 ,line2);
+            calculateLength.CopareLines(line1 ,line2);
         }
     }
 }
