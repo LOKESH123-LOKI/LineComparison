@@ -16,6 +16,8 @@ namespace LineComparison
             int y2=Convert.ToInt32(Console.ReadLine());
             CalculateLength calculateLength=new CalculateLength(x1,x2,y1,y2);
             calculateLength.Calculate();
+            double line1=calculateLength.Calculate();
+            CalculateLength calculatelength = new CalculateLength(3,4,5,6);
         }
     }
 }
